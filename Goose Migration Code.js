@@ -54,8 +54,8 @@ way I could figure out.
 
 //canvas variables
 let gameIsOver = false;
-const width = 3024;
-const height = 1964;
+const width = 500;
+const height = 550;
 
 let pictWidth = width;
 let pictHeight = height;
