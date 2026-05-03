@@ -228,6 +228,22 @@ function keyPressed() {
 
   if (key === "p") {
     gameOn = !gameOn;
+    if (gameOn) {
+        gameIsOver = false;
+        livesRemaining = 3;
+        gm = 0;
+        goose.x = width / 2;
+        goose.y = height - 25;
+        CloudX1 = -25;
+        CloudX2 = -65;
+        CloudX3 = -20;
+        CloudSpeed1 = 2;
+        CloudSpeed2 = 2;
+        CloudSpeed3 = 2;
+        loop();
+    }
+}
+
 
   }
 }
